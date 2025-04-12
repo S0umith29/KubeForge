@@ -72,3 +72,20 @@ The setup avoids hardcoded secrets or static configurations, allowing new servic
 - GitHub Personal Access Token for secure pushes (no secrets in repo).
 
 
+### Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/S0umith29/KubeForge.git
+   cd KubeForge```
+
+2. **Edit the credentials.auto.tfvars with your values**:
+   ```bash
+   nano credentials.auto.tfvars```
+
+3. **Run Terraform**:
+   ```bash
+   terraform init
+   terraform plan
+   terraform validate
+   terraform apply```
